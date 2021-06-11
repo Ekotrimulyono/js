@@ -124,7 +124,7 @@ var quotes = ["Aku akan terus mengatakannya padamu, jadi dengarlah baik-baik set
 	"Cinta mengajariku melihat dengan cara memejam dan mengerti tanpa perlu penjelasan",
 	"Cinta itu sederhana, jika kamu tidak mampu membuatnya tertawa, cukup tidak membuatnya terluka",
 	"Cinta itu saling menguatkan jika engkau ikhlas dalam kebersamaan", 
-	"Cinta mungkin hadir karena takdir tapi tak ada salahnya kita saling memperjuangkan,"]
+	"Cinta mungkin hadir karena takdir tapi tak ada salahnya kita saling memperjuangkan,"];
 function newQuote() {
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
